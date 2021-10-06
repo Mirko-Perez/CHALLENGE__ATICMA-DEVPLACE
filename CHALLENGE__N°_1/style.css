@@ -19,6 +19,11 @@ body{
 
 .navbar{
     background-color:#444;
+    justify-content: right;
+}
+
+a{
+    margin: 8px;
 }
 
 a ,
@@ -52,28 +57,51 @@ input::placeholder{
     text-align: center;
 }
 
-#galeria{
+body{
     background-image: url(./asset/img/img_5.jpg);
     background-size: 100%;
+
 }
 
 .container-gallery{ 
     margin: 20px;
     text-align: center;
     grid-column: 3;
+    
 }
 
+#contacto{
+    padding-bottom: 80px;
+}
 
 form {
+    display: block;
     margin: 20px;
 }
 
-.informacion{
-    height: 200px;
-    width: auto;
-    background-color:#444; 
- 
+form input,
+form textarea {
+    display:block;
 }
+
+textarea {
+    resize: none;
+}
+
+#footer{
+    background-color:#444; 
+    position: fixed;
+    display: block;
+    width: 100%;
+    bottom: 0;
+    opacity: .7;
+}
+
+
+
+
+
+
 
 
 

@@ -17,7 +17,6 @@
             <a href="#contacto">Contacto</a>
             <a href="#galeria">Galeria</a>
             <a href="#nosotros">Nosotros</a>
-            <a href="#footer">Footer</a>
         </nav>
     </header>
 
@@ -83,42 +82,37 @@
                 <img class="car-2" src="asset/img/img_6.jpg" alt="">
             </div>
         </section>
-    </main>
+    
 
-    <footer id="footer" class="footer">
-        <section id="contacto">
+    
+        <section id="contacto" >
             <h3 class="title">Formulario de contaco</h3>
             <h4>Complete los siguientes Campos</h4>
-            <form action="">
-                <li>
-                    <label id="name">Nombre y Apellido:</label>
-                    <input type="text"  id="name" placeholder="Nombre y Apellido" required>
-                </li>
-                <li>
-                    <label id="provincia">Provincia:</label>
-                    <input type="text"  id="provincia" placeholder="Provincia" required>
-                </li>
-                <li>
-                    <label id="email">Email:</label>
-                    <input type="email"  id="email" placeholder="Email" required>
-                </li>
-                <li>
-                    <label id="text">Texto:</label>
-                    <input type="textarea"  id="text" placeholder="Agregar Publicacion" required>
-                </li>
+            <form action="" autocomplete="off">
+                
+                <label id="name">Nombre y Apellido:</label>
+                <input type="text"  id="name" placeholder="Nombre y Apellido" required>
+                
+                <label id="provincia">Provincia:</label>
+                <input type="text"  id="provincia" placeholder="Provincia" required>
+                
+                <label id="email">Email:</label>
+                <input type="email"  id="email" placeholder="Email" required>
+                
+                <label id="text">Texto:</label>
+                <textarea name="text" id="text" cols="30" rows="10" placeholder="Deje un Mensaje..." required></textarea>
+                
                
-                <input type="submit"  class="button" value="Enviar" >
-
+                <input type="submit"  class="btn btn-primary" value="Enviar" >
+            </form>
         </section>
+    </main>
 
+    <footer  id="footer">
         <div class="informacion">
-            <li>
-                <ul>dirección</ul>
-            </li>
-            <li>
-                <ul> teléfono</ul>
-            </li>
-            <li><ul>asdsad</ul></li>
+            <li>Direccion</li>
+            <li>Email</li>
+            <li>Telefono</li>
         </div>
     </footer>
 
