@@ -138,6 +138,11 @@ textarea {
         margin-bottom: 50%;
     }
 
+    .form input,
+    textarea{
+        width: 100%;
+    }
+
     
 }
 
