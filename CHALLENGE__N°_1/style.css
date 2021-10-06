@@ -104,8 +104,26 @@ textarea {
     opacity: .7;
 }
 
+@media (max-width: 840px) {
+    
+    .container-gallery{ 
+        
+        display: block;
+        text-align: center;
+        
+    }
 
+    .car-2 {
+        width: auto;
+        height: 400px;
+        filter:sepia(1);
+        
+    }
 
+    .car-2:hover{
+        filter:sepia(0);
+    }
+}
 
 
 
