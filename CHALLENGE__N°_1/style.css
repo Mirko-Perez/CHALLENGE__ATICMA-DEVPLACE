@@ -8,7 +8,6 @@ body{
     background-color: #2bf;
     color: #fff;
     font-family: sans-serif;
-    display: grid;
 }
 
 
@@ -16,6 +15,13 @@ body{
     text-align: center;
 }
 
+.navbar img{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    margin-right: auto;
+    
+}
 
 .navbar{
     background-color:#444;
@@ -66,9 +72,9 @@ body{
 
 .container-gallery{ 
     margin: 20px;
-    text-align: center;
-    grid-column: 3;
-    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #contacto{
