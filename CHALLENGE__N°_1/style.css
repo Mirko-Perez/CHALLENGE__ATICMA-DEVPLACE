@@ -44,11 +44,12 @@ input::placeholder{
 .car-2 {
     width: 400px;
     height: 400px;
+    filter:sepia(1);
     
 }
 
 .car-2:hover{
-    opacity: 0.7;
+    filter:sepia(0);
 }
 
 .carousel-inner{
